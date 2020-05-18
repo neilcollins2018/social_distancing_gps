@@ -7,7 +7,8 @@ Script performs three main functions.
 
 Reading in data.
 
-Aligning data so lengths and time variables match
+Aligning data so lengths and time variables match.
 
 Produce final distance matrix
 Lines 117 & 118 set the threshold for the distance. It is currently set at 1000m due to the use of the taxi data, alter to desired value. 
+Distance matrix formula sourced here: https://eurekastatistics.com/calculating-a-distance-matrix-for-geographic-points-using-r/
